@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1440px) {
+    .body__1 {
+        top: -880px;
+        left: -480px;
+    }
+    
+    .body__2 {
+        bottom: -880px;
+        right: -480px;
+    }
+    
+    .img__body {
+        height: 150%;
+        width: 100%;
+    }
+}
