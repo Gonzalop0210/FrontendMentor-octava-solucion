@@ -1,35 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Presentación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-mobile.css">
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <img src="images/bg-pattern-top.svg" alt="fondo" class="img__body body__1">
+    <img src="images/bg-pattern-bottom.svg" alt="fondo" class="img__body body__2">
+    <main class="container__main">
+        <img src="images/bg-pattern-card.svg" alt="Fondo de background" class="background">
+        <img src="images/image-victor.jpg" alt="foto de perfil" class="perfil">
+        <h1 class="name">Victor Crest <span class="age">26</span></h1>
+        <h2 class="country">London</h2>
+        <hr class="line">
+        <ul class="list__likes">
+            <ul class="likes">80K<span class="likes__name">Followers</span></ul>
+            <ul class="likes">803K<span class="likes__name">Likes</span></ul>
+            <ul class="likes">1.4K<span class="likes__name">Photos</span></ul>
+        </ul>
+    </main>
 </body>
 </html>
